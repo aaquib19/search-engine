@@ -7,8 +7,7 @@ class App extends Component {
     return (
       <Router>
           <Switch>
-              <Route path='/home' component={Home} />
-              <Route path='/search' component={Search} />
+              <Route path='/' component={Search} />
           </Switch>
       </Router>
     );
